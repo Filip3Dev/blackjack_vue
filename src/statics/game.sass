@@ -1,0 +1,77 @@
+.mydesk
+  max-width: 100%
+  width: 60vw
+.hardSection
+  height: 100vh
+  width: 100vw
+  // overflow: hidden
+.mydealerCard
+  max-width: 100%
+  width: 80px
+.dealerHands
+  display: flex
+  align-items: center
+  justify-content: center
+  div
+    &:nth-child(2)
+      position: absolute
+      transform: translateX(30px)
+      &.dealer
+        img
+          filter: blur(7px)
+    &:nth-child(3)
+      position: absolute
+      transform: translateX(60px)
+    &:nth-child(4)
+      position: absolute
+      transform: translateX(90px)
+    &:nth-child(5)
+      position: absolute
+      transform: translateX(120px)
+    &:nth-child(6)
+      position: absolute
+      transform: translateX(150px)
+.relativoAtudo
+  position: relative
+  .latestButtons
+    padding-right: 8px
+    position: absolute
+    right: 0
+    top: -16px
+    width: 30%
+.specialButton
+  border: none
+  border-radius: 8px
+  color: #fff
+  cursor: pointer
+  height: 50px
+  white-space: nowrap
+  margin-bottom: 10px
+  overflow: hidden
+  margin: 0px auto
+  transition: all .3s cubic-bezier(.6,0,.4,1)
+  &.callButton
+    padding: 10px 38px
+    font-size: 17px
+    background: #ff4566
+    box-shadow: 0 10px 34px rgba(255,68,102,.4),0 2px 16px rgba(255,68,102,.2)
+  &.standButton
+    padding: 10px 38px
+    font-size: 17px
+    background: #458fff
+    box-shadow: 0 10px 34px rgba(69, 143, 255, 0.5), 0 2px 16px rgba(69, 143, 255, 0.2)
+  &.doubleButton
+    padding: 10px 8px
+    font-size: 12px
+    background: #00a928
+    box-shadow: 0 10px 34px rgba(0, 169, 40, 0.5), 0 2px 16px rgba(0, 169, 40, 0.2)
+  &.moreButton
+    padding: 10px 8px
+    font-size: 13px
+    background: #bdb303
+    box-shadow: 0 10px 34px rgba(189, 179, 3, 0.5), 0 2px 16px rgba(189, 179, 3, 0.2)
+  &.fiveButton
+    padding: 10px 8px
+    font-size: 13px
+    background: #f98315
+    box-shadow: 0 10px 34px rgba(249, 131, 21, 0.5), 0 2px 16px rgba(249, 131, 21, 0.2)
